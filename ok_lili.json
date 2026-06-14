@@ -1,0 +1,10 @@
+{
+  "type": "micro_wake_word",
+  "wake_word": "ok lili",
+  "author": "custom",
+  "website": "",
+  "version": 1,
+  "model": "ok_lili.tflite",
+  "probability_cutoff": 0.5,
+  "sliding_window_average_size": 10
+}
