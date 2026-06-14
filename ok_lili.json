@@ -3,8 +3,15 @@
   "wake_word": "ok lili",
   "author": "custom",
   "website": "",
-  "version": 1,
-  "model": "https://github.com/marcinwojciesz/oklili/raw/main/stream_state_internal_quant.tflite",
-  "probability_cutoff": 0.5,
-  "sliding_window_average_size": 10
+  "version": 2,
+  "micro_wake_word_version": 2,
+  "tensorflow_lite_info": {
+    "url": "https://github.com/marcinwojciesz/oklili/raw/main/stream_state_internal_quant.tflite",
+    "sha256": ""
+  },
+  "parameters": {
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10,
+    "tensor_arena_size": 15000
+  }
 }
