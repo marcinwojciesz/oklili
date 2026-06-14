@@ -1,17 +1,18 @@
 {
-  "type": "micro_wake_word",
+  "type": "micro",
   "wake_word": "ok lili",
   "author": "custom",
   "website": "",
+  "model": "https://github.com/marcinwojciesz/oklili/raw/main/stream_state_internal_quant.tflite",
+  "trained_languages": [
+    "pl"
+  ],
   "version": 2,
-  "micro_wake_word_version": 2,
-  "tensorflow_lite_info": {
-    "url": "https://github.com/marcinwojciesz/oklili/raw/main/stream_state_internal_quant.tflite",
-    "sha256": ""
-  },
-  "parameters": {
+  "micro": {
     "probability_cutoff": 0.5,
-    "sliding_window_average_size": 10,
-    "tensor_arena_size": 15000
+    "feature_step_size": 10,
+    "sliding_window_size": 5,
+    "tensor_arena_size": 37000,
+    "minimum_esphome_version": "2024.7.0"
   }
 }
