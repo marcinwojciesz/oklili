@@ -1702,7 +1702,7 @@ micro_wake_word:
   models:
     - model: https://github.com/kahrendt/microWakeWord/releases/download/okay_nabu_20241226.3/okay_nabu.json
       id: okay_nabu
-    - model: https://github.com/marcinwojciesz/oklili/raw/main/ok_lili.json
+    - model: https://raw.githubusercontent.com/marcinwojciesz/oklili/main/ok_lili.json
       id: ok_lili
     - model: hey_jarvis
       id: hey_jarvis
